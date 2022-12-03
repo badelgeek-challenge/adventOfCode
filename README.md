@@ -1,4 +1,5 @@
 <!-- TOP ANCHOR -->
+
 <a name="top"></a>
 
 <br />
@@ -21,18 +22,16 @@
   </p>
 </div>
 
-
 <!-- ABOUT THE PROJECT -->
+
 ## ℹ️ About The Project
 
 Advent of Code is an Advent calendar of small programming puzzles for a variety of skill sets and skill levels that can be solved in any programming language you like.
 People use them as interview prep, company training, university coursework, practice problems, a speed contest, or to challenge each other.
 
-
 <p align="right"><a href="#top">🔝</a></p>
 
 ## 📚 My Language for the challenge
-
 
 <table>
 <tr>
@@ -42,16 +41,15 @@ People use them as interview prep, company training, university coursework, prac
 
 <p align="right"><a href="#top">🔝</a></p>
 
-
-
 <!-- CHALLENGE -->
-## Challenge
+
+## 🏆 Challenge
 
 | **Day** | **2021** | **2022** |
-|---------|----------|----------|
-| 1       | ⭐       | ⭐⭐      |
-| 2       |          | ⭐⭐      |
-| 3       |          |          |
+| ------- | -------- | -------- |
+| 1       | ⭐       | ⭐⭐     |
+| 2       |          | ⭐⭐     |
+| 3       |          | ⭐⭐     |
 | 4       |          |          |
 | 5       |          |          |
 | 6       |          |          |
@@ -77,10 +75,8 @@ People use them as interview prep, company training, university coursework, prac
 
 <p align="right"><a href="#top">🔝</a></p>
 
-
-
-
 <!-- CONTACT -->
+
 ## 📞 Contact
 
 <table>
@@ -103,12 +99,10 @@ People use them as interview prep, company training, university coursework, prac
  
 <p align="right"><a href="#top">🔝</a></p>
 
-
-
 <!-- LINKS -->
-## LINKS
 
-* [Advent Of Code](https://adventofcode.com/)
+## 🔗 Links
+
+- [Advent Of Code](https://adventofcode.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
