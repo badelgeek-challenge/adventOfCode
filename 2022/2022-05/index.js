@@ -4,23 +4,30 @@ let data = getArrayFromFile("./input.txt");
 // Parse data to retrieve Stacks and Moves
 let { stackList, moveList } = data.reduce(
   (data, line, index) => {
+    // Retrieve not empty lines
     if (line) {
-      if (line && !line.includes("move")) {
-        line.match(/.{3}[ ]?/g).forEach((crate, index) => {
-          if (!data.stackList[index]) {
-            data.stackList[index] = [];
-          }
-          if (crate.includes("[")) {
-            data.stackList[index].push(crate);
-          }
-        });
-      } else {
+      // Move instructions
+      if (line.includes("move")) {
         data.moveList.push(line);
+        return data;
       }
+
+      // Stacks and Crates
+      line.match(/.{3}[ ]?/g).forEach((crate, index) => {
+        if (!data.stackList[index]) {
+          data.stackList[index] = [];
+        }
+        if (crate.includes("[")) {
+          data.stackList[index].push(crate);
+        }
+      });
     }
     return data;
   },
-  { stackList: [], moveList: [] }
+  {
+    stackList: [],
+    moveList: [],
+  }
 );
 
 // Move Crates between Stacks
