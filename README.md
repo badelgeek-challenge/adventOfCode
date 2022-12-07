@@ -53,7 +53,7 @@ People use them as interview prep, company training, university coursework, prac
 | 4       | ⭐⭐     |
 | 5       | ⭐⭐     |
 | 6       | ⭐⭐     |
-| 7       |          |
+| 7       | ⭐⭐     |
 | 8       |          |
 | 9       |          |
 | 10      |          |
